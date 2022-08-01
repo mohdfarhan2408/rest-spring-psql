@@ -10,6 +10,7 @@ import java.time.Period;
 
 public class Student {
 
+    //Annotation for id.
     @Id
     @SequenceGenerator(
             name = "student_sequence",
