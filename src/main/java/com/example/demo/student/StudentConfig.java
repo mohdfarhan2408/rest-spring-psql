@@ -14,6 +14,7 @@ import static java.util.Calendar.MAY;
 @Configuration
 public class StudentConfig {
 
+    //Bean
     @Bean
     CommandLineRunner commandLineRunner(StudentRepository repository) {
         return args -> {
